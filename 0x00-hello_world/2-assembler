@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S $CFILE -o $ASMFILE
+gcc -S $1 -o ${1%.c}.s
