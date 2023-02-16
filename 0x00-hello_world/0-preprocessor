@@ -1,0 +1,4 @@
+#!/bin/bash
+CFILE="example.c"
+OUTPUT="c"
+gcc -E $CFILE -o $OUTPUT
