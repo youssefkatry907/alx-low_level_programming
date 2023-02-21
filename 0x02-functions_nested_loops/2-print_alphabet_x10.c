@@ -1,9 +1,8 @@
 #include "main.h"
 
-/*
- *print all letters from a to z x10 times 
-*/ 
-
+/**
+ *  * print_alphabet_x10 - Prints 10 times the alphabet, in lowercase.
+ **/
 void print_alphabet_x10(void)
 {
 	int idx = 0;
