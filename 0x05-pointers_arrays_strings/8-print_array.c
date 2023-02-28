@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  ** print_array - Print an array up to n.
