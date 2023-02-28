@@ -19,7 +19,7 @@ int _atoi(char *s)
 		if (s[i] == '-')
 			minus *= -1;
 
-		if (s[i] >= '0' and s[i] <= '9')
+		if (s[i] >= '0' && s[i] <= '9')
 		{
 			res *= 10;
 			res -= (s[i] - '0');
