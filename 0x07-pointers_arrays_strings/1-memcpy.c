@@ -1,12 +1,16 @@
 #include "main.h"
 
 /**
- ** _strstr - locates a substring
+ ** _memcpy - function copies @n bytes from memory area @src
+ ** to memory area @dest
  **
- ** @haystack: the longer string to search
- ** @needle: the first occurrence of the substring
+ ** @n: function copies
  **
- ** Return: a pointer beg of substring or @Null if it not foound.
+ ** @src: bytes from memory area
+ **
+ ** @dest: to memory area
+ **
+ ** Return: a pointer to @dest
  **/
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
