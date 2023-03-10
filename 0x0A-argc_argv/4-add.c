@@ -8,6 +8,7 @@
  **
  ** Return: 0
  **/
+
 int main(int argc, char **argv)
 {
 	int i, n, sum = 0;
@@ -27,12 +28,9 @@ int main(int argc, char **argv)
 			printf("Error\n");
 			return (1);
 		}
-		else 
-		{
+		else
 			sum += n;
-		}
 	}
 	printf("%d\n", sum);
-
 	return (0);
 }
