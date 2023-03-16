@@ -18,11 +18,17 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (s1 == NULL)
 		x = 0;
 	else
-		for (x = 0; s[x]; x++);
+	{
+		for (x = 0; s[x]; ++x)
+			;
+	}
 	if (s2 == NULL)
 		y = 0;
 	else
-		for (y = 0; s[y]; y++);
+	{
+		for (y = 0; s[y]; ++y)
+			;
+	}
 	if (y > n)
 		y = n;
 	s = malloc(sizeof(char) * (x + y + 1));
